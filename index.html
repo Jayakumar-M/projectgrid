@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grid.css">
+    <script async src="grid.js"></script>
+</head>
+<body>
+    <div class="parent" id="parent">
+        <div class="constant" id="first" onclick="clickable1(this.id)">
+            <div class="child" id="block1"  onclick="clickable2(this.id)"></div>
+            <div class="child" id="block2" onclick="clickable2(this.id)"></div>
+        </div>
+        <div class="constant" id="second" onclick="clickable1(this.id)">
+            <div class="child" id="block3" onclick="clickable2(this.id)"></div>
+            <div class="child" id="block4" onclick="clickable2(this.id)"></div>
+        </div>
+        <div  class="constant" id="third" onclick="clickable1(this.id)">
+            <div class="child" id="block5" onclick="clickable2(this.id)"></div>
+            <div class="child" id="block6" onclick="clickable2(this.id)"></div>
+        </div>
+    </div>
+</body>
+</html>

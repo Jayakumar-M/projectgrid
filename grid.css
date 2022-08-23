@@ -1,0 +1,26 @@
+body{ 
+    cursor: pointer;
+}
+.child{
+    background-color:blue;
+    border: 0.25rem solid white;
+    flex-grow:1;
+}
+.parent{
+    display:flex;
+    justify-content: flex-start;
+    width:99%;
+    height: 95vh;
+    background-color: blue;
+    margin: 0%;
+    border: 0.5rem solid black;
+}
+.constant{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+.change{
+    flex-grow:1.5;
+    transition: 1s ease ;
+}
